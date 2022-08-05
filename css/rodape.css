@@ -1,0 +1,14 @@
+/*
+    * Configura o rodapé da página
+*/
+
+.rodape {
+    background: #f5f5f5;
+    padding: 0.1%;
+    text-align: center;
+}
+
+.rodape__paragrafo {
+    color: #464646;
+    font-family: 'Montserrat', sans-serif;
+}

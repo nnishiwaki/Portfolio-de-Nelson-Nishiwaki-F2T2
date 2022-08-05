@@ -1,0 +1,44 @@
+/*
+    * Configura a seção formação acadêmica
+*/
+
+.formacao {
+    background: #EAF2FD;
+    color: #464646;
+    font-family: 'Questrial', sans-serif;
+    justify-content: space-between;
+    padding: 5% 10% 5% 10%;
+}
+
+.formacao__titulo {
+    font-size: 25px;
+    text-align: center;
+}
+
+.formacao__tabela {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+}
+
+.formacao__item {
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.formacao__curso {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.formacao__duracao-instituicao {
+    margin-bottom: 0;
+}

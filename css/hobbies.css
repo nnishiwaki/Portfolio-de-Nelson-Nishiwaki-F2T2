@@ -1,0 +1,39 @@
+/*
+    * Configura seção hobbies
+*/
+
+.hobbies {
+    background-color: #f5f5f5;
+    color: #464646;
+    font-family: 'Questrial', sans-serif;
+    padding: 0 10% 5% 10%;
+}
+
+.hobbies__titulo {
+    font-size: 25px;
+    text-align: center;
+}
+
+.hobbies__tabela {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+}
+
+.hobbies__item {
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    height: 180px;
+    width: 180px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.hobbies__texto {
+    font-weight: bold;
+    margin-bottom: 0;
+}

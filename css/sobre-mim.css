@@ -1,0 +1,24 @@
+/*
+    * Configura todo a seção sobre mim
+*/
+
+.sobre-mim {
+    align-items: center;
+    background-color: #EAF2FD;
+    color: #464646;
+    display: inline-block;
+    font-family: 'Questrial', sans-serif;
+    justify-content: space-between;
+    padding: 5% 10% 5% 10%;
+    position: relative;
+}
+
+.sobre-mim__titulo {
+    font-size: 25px;
+}
+
+.sobre-mim__assinatura {
+    font-family: 'Birthstone Bounce', cursive;
+    font-size: 20px;
+    font-weight: 900;
+}

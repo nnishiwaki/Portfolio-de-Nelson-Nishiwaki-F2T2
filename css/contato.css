@@ -1,0 +1,79 @@
+/*
+    * Configura o formulário de contato
+*/
+
+.contato {
+    text-align: center;
+    background-color: #EAF2FD;
+    color: #464646;
+    font-family: 'Questrial', sans-serif;
+    justify-content: space-between;
+    padding: 5% 10% 5% 10%;
+    position: relative;
+}
+
+.contato__titulo {
+    font-size: 25px;
+}
+
+.contato__formulario {
+    display: inline-block;
+}
+
+.contato__input-padrao, .contato__input-mensagem {
+    align-items: center;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contato__etiqueta {
+    align-items: center;
+    display: flex;
+}
+
+.contato__input {
+    align-items: center;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    padding: 0px;
+    position: static;
+    width: 500px;
+    height: 25px;
+    top: 20px;
+}
+
+.contato__caixa-mensagem {
+    align-items: center;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    padding: 0px;
+    position: static;
+    width: 500px;
+    height: 150px;
+    top: 20px;  
+}
+
+.contato__enviar {
+    align-items: center;
+    background: #5595E9;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.contato__enviar:hover {
+    background: #2A7AE4;
+    transform: scale(1.1);
+}
